@@ -7,23 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- 
-    - Primary Meta Tags
+    - SEO: Optimized Title Tag (Most Important Keywords First)
   -->
-  <title>The Wizards Club, GEHU | The Wiz4rds Club, GEHU</title>
-  <meta name="title" content="The Wizards Club - Your Stage, Your Glory">
+  <title>The Wizards Club GEHU | Esports & Sports at Graphic Era Hill University</title>
+
+  <!-- 
+    - SEO: Compelling Meta Description with Keywords
+  -->
   <meta name="description"
-    content="THE WIZARDs is an Esports and Sports club at Graphic Era Hill University, established on 21st September 2024. It aims to provide a platform not just for gaming, but also for promoting valuable skills in technology, outdoor sports, and other extracurricular activities among students. ">
+    content="Welcome to The Wizards Club, the official Esports and Sports club of Graphic Era Hill University (GEHU). Join us for events, tournaments, and a community dedicated to gaming and sports.">
+
+  <!-- 
+    - SEO: Canonical URL to prevent duplicate content issues
+  -->
+  <link rel="canonical" href="https://www.thewiz4rds.in" />
 
   <!-- 
     - Social Media Preview / Thumbnail Meta Tags (OG & Twitter)
   -->
-  <meta property="og:title" content="The Wizards Club, GEHU | Your Stage Your Glory" />
+  <meta property="og:title" content="The Wizards Club GEHU | Your Stage Your Glory" />
   <meta property="og:description" content="The official Esports and Sports club of Graphic Era Hill University." />
   <meta property="og:url" content="https://www.thewiz4rds.in" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://www.thewiz4rds.in/assets/images/wizards_logo.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="The Wizards Club, GEHU | Your Stage Your Glory" />
+  <meta name="twitter:title" content="The Wizards Club GEHU | Your Stage Your Glory" />
   <meta name="twitter:description" content="The official Esports and Sports club of Graphic Era Hill University." />
   <meta name="twitter:image" content="https://www.thewiz4rds.in/assets/images/wizards_logo.png" />
 
@@ -36,7 +44,7 @@
     - Google Fonts
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
     rel="stylesheet">
@@ -52,6 +60,34 @@
   <link rel="preload" as="image" href="./assets/images/hero-banner.png">
   <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
 
+  <!-- 
+    - SEO: JSON-LD Structured Data (Schema Markup)
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsClub",
+    "name": "The Wizards Club GEHU",
+    "alternateName": "The Wizards Club",
+    "url": "https://www.thewiz4rds.in",
+    "logo": "https://www.thewiz4rds.in/assets/images/wizards_logo.png",
+    "description": "The official Esports and Sports club of Graphic Era Hill University (GEHU), focusing on competitive gaming and athletic events.",
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "Graphic Era Hill University"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "thewizards@gehu.ac.in",
+      "contactType": "Join Us"
+    },
+    "sameAs": [
+      "https://www.instagram.com/thewizardsgehu/",
+      "https://linktr.ee/thewizardsclub"
+    ]
+  }
+  </script>
+
 </head>
 
 <body id="top">
@@ -60,29 +96,24 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="assets/images/wiz logo.png" width="110" height="53" alt="The Wizards Club Home">
+        <img src="assets/images/wiz logo.png" width="110" height="53" alt="The Wizards Club GEHU Logo">
       </a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <a href="#home" class="navbar-link" data-nav-link>home</a>
           </li>
-
           <li class="navbar-item">
             <a href="#tournament-progress" class="navbar-link" data-nav-link>Events</a>
           </li>
-
           <li class="navbar-item">
             <a href="#footer" class="navbar-link" data-nav-link>contact</a>
           </li>
-
         </ul>
       </nav>
 
-      <a href="https://forms.gle/LZ47Bwe2dKAKSFBbA" target="_blank" rel="noopener noreferrer" class="btn" data-btn>Join
-        Our Team</a>
+      <a href="https://forms.gle/LZ47Bwe2dKAKSFBbA" target="_blank" rel="noopener noreferrer" class="btn" data-btn>Join Our Team</a>
 
       <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
         <span class="line line-1"></span>
@@ -101,16 +132,15 @@
       <div class="hero has-before" id="home">
         <div class="container">
 
-          <p class="section-subtitle">THE WIZARDS CLUB</p>
+          <!-- SEO: Changed subtitle to h1 for primary keyword ranking -->
+          <h1 class="h1 title section-subtitle">The Wizards Club GEHU</h1>
+          
+          <p class="hero-title">Your Stage Your Glory <br> We Set It!</p>
 
-          <h1 class="h1 title hero-title">Your Stage Your Glory <br> We Set It!</h1>
-
-          <a href="https://linktr.ee/thewizardsclub" target="_blank" rel="noopener noreferrer" class="btn" data-btn>Join
-            The Wizards </a>
+          <a href="https://linktr.ee/thewizardsclub" target="_blank" rel="noopener noreferrer" class="btn" data-btn>Join The Wizards </a>
 
           <div class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="850" height="414" alt="hero banner" class="w-100">
-
+            <img src="./assets/images/hero-banner.png" width="850" height="414" alt="Hero banner for The Wizards Club esports events" class="w-100">
             <img src="./assets/images/hero-banner-bg.png" alt="" class="hero-banner-bg">
           </div>
 
@@ -230,7 +260,7 @@
 
               <a href="#" class="logo">
                 <img src="assets/images/wiz logo.png" width="110" height="53" loading="lazy"
-                  alt="The Wizards Club logo">
+                  alt="The Wizards Club logo in footer">
               </a>
 
               <p class="footer-text">
@@ -291,7 +321,7 @@
           <div class="container">
 
             <p class="copyright">
-              &copy; 2025 The Wizards Club. All Rights Reserved
+              &copy; 2025 The Wizards Club GEHU. All Rights Reserved
             </p>
 
           </div>
@@ -319,3 +349,4 @@
 </body>
 
 </html>
+
