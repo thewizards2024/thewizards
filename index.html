@@ -59,6 +59,7 @@
   -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.png">
   <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+  <link rel="preload" as="image" href="./assets/images/about-banner.png">
 
   <!-- 
     - SEO: JSON-LD Structured Data (Schema Markup)
@@ -66,7 +67,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SportsClub","EsportsClub",
+    "@type": "SportsClub",
     "name": "The Wizards Club GEHU",
     "alternateName": "The Wizards Club",
     "url": "https://www.thewiz4rds.in",
@@ -95,14 +96,17 @@
   <header class="header active" data-header>
     <div class="container">
 
-      <a href="https://www.thewiz4rds.in/" class="logo">
+      <a href="#" class="logo">
         <img src="assets/images/wiz logo.png" width="110" height="53" alt="The Wizards Club GEHU Logo">
       </a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
           <li class="navbar-item">
-            <a href="https://www.thewiz4rds.in/" class="navbar-link" data-nav-link>home</a>
+            <a href="#home" class="navbar-link" data-nav-link>home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
           <li class="navbar-item">
             <a href="#tournament-progress" class="navbar-link" data-nav-link>Events</a>
@@ -145,6 +149,36 @@
 
         </div>
       </div>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about" id="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-banner">
+              <img src="./assets/images/about-banner.png" width="650" height="420" loading="lazy" alt="A group of gamers playing in a tournament" class="w-100">
+            </div>
+
+            <div class="about-text">
+              <p class="section-subtitle" id="about-label">About The Wizards Club</p>
+
+              <h2 class="h2 section-title">
+                Our Journey <span class="span">So Far</span>
+              </h2>
+
+              <p class="section-text">
+                THE WIZARDs is an Esports and Sports club at Graphic Era Hill University, established on 21st September 2024. It aims to provide a platform not just for gaming, but also for promoting outdoor sports activities among students.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
 
 
       <section class="section progress" aria-labelledby="progress-label" id="tournament-progress">
@@ -294,7 +328,7 @@
                   <a href="#tournament-progress" class="footer-link">Events</a>
                 </li>
                 <li>
-                  <a href="policy.html" class="footer-link">Privacy and Policy</a>
+                  <a href="privacy.html" class="footer-link">Privacy and Policy</a>
                 </li>
 
               </ul>
@@ -320,7 +354,8 @@
           <div class="container">
 
             <p class="copyright">
-              &copy; 2025 The Wizards Club GEHU. All Rights Reserved | Designed &amp; Developed by 
+              &copy; 2025 The Wizards Club GEHU. All Rights Reserved.<br>
+              Website Designed &amp; Developed by 
               <a href="https://www.parasbisht.in/" target="_blank" rel="noopener noreferrer">Paras Bisht</a> | 
               <a href="https://www.instagram.com/paras_bisht007/" target="_blank" rel="noopener noreferrer">Instagram</a>
             </p>
